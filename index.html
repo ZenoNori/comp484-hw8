@@ -8,12 +8,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&family=Source+Sans+3:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/6f3c7b93ef.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- // Intro -->
-    <header>
+    <header id="about">
+        <nav class="display">
+            <a href="#about" title="jump to section about me">About</a>
+            <a href="#work" title="jump to work experience section">Work</a>
+            <a href="#education" title="jump to education section">Education</a>
+            <a href="#contact" title="jump to contact info section">Contact</a>
+            <a href="documents/2025Resume (1).pdf" target="_blank" title="click here to download resume">Resume</a>
+        </nav>
         <div class="content-wrap">
-            <img src="images/zedric2.jpg" alt="Zedric Arias" class="profile-img column-narrow">
+            <img src="images/zedric4.jpg" alt="Zedric Arias" class="profile-img column-narrow" style="padding-right: 0; width: 300px;">
             <div class="column-wide">
                 <h1>Zedric Arias</h1>
                 <h2>Full Time Student</h2>
@@ -28,7 +36,7 @@
     <main> 
         <!-- // Work Experience -->
         <section id="work">
-            <div class="content-wrap">
+            <div class="content-wrap" style="padding-bottom: 10px;">
                 <h2>Work Experience</h2>
 
                 <!-- Job Details: copy this whole block to add more jobs -->
@@ -105,17 +113,21 @@
     </main>
     
     <!-- // Footer & contact info -->
-    <footer>
-        <div class="content-wrap">
-            <h2>Let's Keep in Touch!</h2>
-            
-            <!-- Social media and contact links. Add or remove any networks. -->
-            <div class="contact-info">
-                <a href="mailto:arias.zedric22@gmail.com">arias.zedric22@gmail.com</a>
-                <a href="https://www.linkedin.com/in/zedric-arias-28a03b2b9/" title="Visit LinkedIn" target="_blank">LinkedIn</a>
-            </div>
+    <footer id="contact">
+        <div class="image-bg">
+            <div class="alpha-bg">
+                <div class="content-wrap">
+                    <h2>Let's Keep in Touch!</h2>
+                        
+                    <!-- Social media and contact links. Add or remove any networks. -->
+                    <div class="contact-info">
+                        <a href="mailto:arias.zedric22@gmail.com" title="Send an email"><i class="fa-solid fa-square-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/zedric-arias-28a03b2b9/" title="Visit LinkedIn" target="_blank"><i class="fa-brands fa-square-linkedin"></i></a>
+                    </div>
 
-            <p>Copyright 2025 by Zedric Arias</p>
+                    <p>Copyright <i class="fa-regular fa-copyright"></i> 2025 by Zedric Arias</p>
+                </div>
+            </div>
         </div>
     </footer>
 </body>

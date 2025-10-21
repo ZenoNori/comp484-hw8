@@ -13,6 +13,24 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+nav {
+    background: #dda67e;
+    margin-bottom: 5px;
+}
+.display {
+    text-align: center;
+    font-size: 0;
+}
+.display a {
+    padding: 10px;
+    display: inline-block;
+    width: 20%;
+    font-size: 16px;
+    font-family: 'Playfair Display', Georgia, serif;
+    background: #2a5626;
+    color: #f1e8e4;
+    text-decoration: none;
+}
 body {
     background: #2a5626;
     font-family: 'Source Sans 3', Arial, sans-serif;
@@ -43,6 +61,9 @@ ul {
     padding: 50px;
     overflow: hidden;
 }
+header .content-wrap {
+  display: flex;
+}
 header h1, header h2 {
     margin-top: 0;
     margin: 0;
@@ -50,10 +71,13 @@ header h1, header h2 {
 .contact-info a{
     padding: 10px;
     display: inline-block;
+    font-size: 35px;
+    color: #f1e8e4;
 }
 img {
     width: 300px;
     height: 300px;
+    margin-right: 50px;
 }
 
 
@@ -75,9 +99,17 @@ header {
 }
 
 footer {
-    background: #94b082;
     text-align: center;
+    color: #f1e8e4;
 }
+.image-bg {
+    background: url(../images/matrix2.jpg);
+    background-attachment: fixed;
+}
+.alpha-bg {
+    background: rgba(2, 198, 103, 0.447);
+}
+
 .profile-img {
     /* width: 300px; */
     border-radius: 50%;
